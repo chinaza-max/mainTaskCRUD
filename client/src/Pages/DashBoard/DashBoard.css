@@ -1,0 +1,186 @@
+.DashBoard {
+  padding-top: 60px;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 0 auto;
+}
+
+.DashBoard main {
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  width: 900px;
+  background: #0A175F;
+  padding-top: 1px;
+}
+
+.DashBoard main .loading {
+  text-align: center;
+  font-size: 30px;
+  color: white;
+}
+
+.DashBoard main .edit {
+  position: fixed;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  left: 0;
+  right: 0;
+  top: 90px;
+  width: 680px;
+  height: 300px;
+  background-color: wheat;
+  overflow: hidden;
+}
+
+.DashBoard main .edit span {
+  float: right;
+  margin: 6px 10px 0px 0px;
+}
+
+.DashBoard main .edit span:hover {
+  cursor: pointer;
+}
+
+@media (max-width: 905px) {
+  .DashBoard main .edit {
+    max-width: 645px;
+  }
+}
+
+@media (max-width: 480px) {
+  .DashBoard main .edit {
+    width: 96%;
+  }
+}
+
+@media (max-width: 905px) {
+  .DashBoard main {
+    max-width: 650px;
+  }
+}
+
+@media (max-width: 480px) {
+  .DashBoard main {
+    width: 100%;
+  }
+}
+
+.DashBoard main ul:first-child {
+  border-bottom: 2px solid white;
+  padding-bottom: 10px;
+}
+
+.DashBoard main ul {
+  padding: 0;
+  list-style: none;
+  width: 100%;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-column-gap: 20px;
+}
+
+@media (max-width: 480px) {
+  .DashBoard main ul {
+    -ms-grid-columns: 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-column-gap: 3px;
+  }
+}
+
+.DashBoard main ul li {
+  text-align: center;
+}
+
+.DashBoard main ul li span {
+  color: white;
+  font-size: 15px;
+}
+
+.DashBoard main ul .deleteAll span {
+  background-color: white;
+  color: #0A175F;
+  padding: 4px 9px 4px 9px;
+  border-radius: 9px;
+  white-space: nowrap;
+  font-size: 15px;
+  display: inline-block;
+}
+
+@media (max-width: 480px) {
+  .DashBoard main ul .deleteAll span {
+    padding: 3px 8px 3px 8px;
+    font-size: 10px;
+    border-radius: 5px;
+    margin-right: 5px;
+  }
+}
+
+.DashBoard main ul .deleteAll span:hover {
+  cursor: pointer;
+}
+
+.DashBoard main .content {
+  justify-items: center;
+  border-bottom: 1px solid white;
+  padding-bottom: 10px;
+}
+
+.DashBoard main .content li {
+  height: 150px;
+  width: 90px;
+}
+
+.DashBoard main .content li span {
+  display: inline-block;
+  margin-top: 50px;
+}
+
+.DashBoard main .content li .icon:hover {
+  cursor: pointer;
+}
+
+.DashBoard main .content li:nth-child(2) {
+  width: 180px;
+}
+
+.DashBoard main .content li:nth-child(2) span {
+  margin-top: 0px;
+  display: inline-block;
+  padding-top: 55px;
+}
+
+@media (max-width: 480px) {
+  .DashBoard main .content li:nth-child(2) {
+    width: 90px;
+  }
+}
+
+@media (max-width: 480px) {
+  .DashBoard main .content li:nth-child(3) {
+    width: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .DashBoard main .content li:nth-child(4) {
+    width: 20px;
+  }
+}
+
+.DashBoard main .content li:first-child {
+  padding-left: 4px;
+}
+
+.DashBoard main .content li:first-child img {
+  width: 100%;
+  height: 100%;
+}
+/*# sourceMappingURL=DashBoard.css.map */

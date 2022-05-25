@@ -1,0 +1,14 @@
+.Upload{
+    padding-top: 60px;
+    height: fit-content;
+    width: fit-content;
+    margin: 0 auto;
+    main{
+        height:fit-content;
+        width: 900px;
+        padding-top: 1px;
+        @media (max-width:480px) {
+            width: 100%;
+        }
+    }
+}

@@ -1,0 +1,97 @@
+.nav {
+  width: 100%;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  position: fixed;
+  background: #FAFAFA;
+  -webkit-box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.1);
+  z-index: 3;
+}
+
+.nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  padding: 0;
+  list-style: none;
+  width: 80%;
+  margin: 0 auto;
+  height: 48px;
+}
+
+@media (max-width: 480px) {
+  .nav ul {
+    width: 98%;
+    min-width: 270px;
+  }
+  .nav ul li:last-child {
+    -webkit-box-flex: 3;
+        -ms-flex: 3;
+            flex: 3;
+    min-width: 220px;
+  }
+  .nav ul li:first-child {
+    -ms-flex-negative: 1;
+        flex-shrink: 1;
+  }
+}
+
+.nav ul .logo a {
+  color: black;
+}
+
+.nav ul .logo a span {
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.nav ul li {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.nav ul li a {
+  color: black;
+  text-decoration: none;
+  line-height: 40px;
+}
+
+.nav ul li a span {
+  font-size: 17px;
+  text-align: center;
+}
+
+@media (max-width: 480px) {
+  .nav ul li a span {
+    font-size: 15px;
+  }
+}
+
+.nav ul li .active {
+  border-bottom: 3px solid #0a175f;
+  padding-bottom: 10px;
+}
+
+.nav ul li:last-child {
+  text-align: right;
+}
+
+.nav ul li:last-child a {
+  color: #0a175f;
+}
+
+.nav ul li:last-child a {
+  margin-right: 20px;
+}
+
+.nav ul li:last-child a:last-child {
+  margin-right: 0px;
+}
+/*# sourceMappingURL=Navbar.css.map */

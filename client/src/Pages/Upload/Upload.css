@@ -1,0 +1,25 @@
+.Upload {
+  padding-top: 60px;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 0 auto;
+}
+
+.Upload main {
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  width: 900px;
+  padding-top: 1px;
+}
+
+@media (max-width: 480px) {
+  .Upload main {
+    width: 100%;
+  }
+}
+/*# sourceMappingURL=Upload.css.map */

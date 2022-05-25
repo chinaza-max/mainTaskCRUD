@@ -1,0 +1,47 @@
+.Form {
+  width: 100%;
+  height: 100%;
+  background-color: white;
+}
+
+.Form form div {
+  text-align: center;
+}
+
+.Form form div input {
+  margin-top: 45px;
+  width: 300px;
+  background-color: transparent;
+  border: 1px solid #575454;
+}
+
+.Form form div input[type=text] {
+  border: none;
+  border-bottom: 1px solid #575454;
+  padding-bottom: 10px;
+}
+
+.Form form div input[type=text]:focus {
+  outline: none;
+}
+
+.Form form div input[type=file]:hover {
+  cursor: pointer;
+}
+
+.Form form button {
+  width: 135px;
+  height: 42px;
+  margin: 0 auto;
+  margin-top: 40px;
+  background: #0A175F;
+  border-radius: 20px;
+  display: block;
+  font-size: 18px;
+  color: white;
+}
+
+.Form form button:hover {
+  cursor: pointer;
+}
+/*# sourceMappingURL=Form.css.map */
