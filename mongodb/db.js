@@ -1,7 +1,7 @@
 const mongoose=require('mongoose')
 
 
-module.exports=mongoose.connect("mongodb://localhost:27017/BooksIntern", {
+module.exports=mongoose.connect("mongodb://localhost:27017/pretask", {
     useNewUrlParser: true,
     useUnifiedTopology: true,
   },
